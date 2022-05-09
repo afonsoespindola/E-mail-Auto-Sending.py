@@ -36,8 +36,8 @@ def e_mail():
 
 
         msg = email.message.Message() #Configuração da biblioteca na variável msg
-        msg['Disposition-Notification-To'] = 'penegui@guiaanonima.com' #configuração do recebimento de notificação caso o destinatário abra a mensagem
-        msg['Disposition-Notification-To'] = '"From" <penegui@guiaanonima.com>' #configuração do recebimento de notificação caso o destinatário abra a mensagem
+        msg['Disposition-Notification-To'] = 'seuemail@email.com' #configuração do recebimento de notificação caso o destinatário abra a mensagem
+        msg['Disposition-Notification-To'] = '"From" <seuemail@email.com>' #configuração do recebimento de notificação caso o destinatário abra a mensagem
         msg['Subject'] = subject
 
         msg['From'] = 'seuemail@email.com' #configuração do SEU e-mail, e-mail que irá ENVIAR
