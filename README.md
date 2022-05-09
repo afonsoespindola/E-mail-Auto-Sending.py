@@ -2,7 +2,7 @@
  Ferramenta para o envio de e-mails de maneira automatizada utilizando Python
  
 
-![](https://imgur.com/a/uKYx3wV)
+![](https://i.imgur.com/shGs1HH.png)
 
 
 
